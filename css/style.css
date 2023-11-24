@@ -1,6 +1,27 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 10px;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 50%;
+}
+
 
 p {
     font-size: 17px;
